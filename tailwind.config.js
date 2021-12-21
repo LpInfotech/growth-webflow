@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./public/**/*.html"],
+  content: ["./public/**/*{.html,js}"],
   theme: {
     colors:{
       // primary
@@ -12,15 +12,18 @@ module.exports = {
       info:'#1f2559',
     
       // white
-      white:'#fff'
+      white:'#fff',
       
     },
 
     // font family
     fontFamily:{
-      'plus':'Plus Jakarta Display',
+      'plus':['Plus Jakarta Display', 'sans-serif'],
     },
-    extend: {},
+
+    extend: {
+      
+    },
   },
   plugins: [],
 }
