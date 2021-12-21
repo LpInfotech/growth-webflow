@@ -1,3 +1,14 @@
+/* ========= Tailwind css files ============= */ 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ========== common css ============= */
+
+/* == body == */
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
