@@ -6,9 +6,7 @@
 
 /* ========== common css ============= */
 
-/* == body == */
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+/* == shodow == */
+.text-shadow{
+    text-shadow: -1px 5px 2px #b3b3b3;
 }

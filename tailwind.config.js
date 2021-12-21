@@ -1,18 +1,24 @@
 module.exports = {
   content: ["./public/**/*.html"],
   theme: {
-    color:{
-      primary:{
-        10:'#f4263e',
-      },
+    colors:{
+      // primary
+      primary:'#f4263e',
+  
+      // secondary
+      secondary:'#62668a',
 
-      secondary:{
-        10:'#62668a',
-      },
+      // info
+      info:'#1f2559',
+    
+      // white
+      white:'#fff'
+      
+    },
 
-      info:{
-        10:'#1f2559',
-      }
+    // font family
+    fontFamily:{
+      'plus':'Plus Jakarta Display',
     },
     extend: {},
   },
