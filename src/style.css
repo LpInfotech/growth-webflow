@@ -1,5 +1,5 @@
 /* ========= Tailwind css files ============= */ 
-
+@import '/node_modules/@themesberg/flowbite';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
