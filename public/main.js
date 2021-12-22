@@ -1,5 +1,8 @@
 // ==== Mobilemenu Navbar
+
 function toggle(){
-    var menu = document.getElementById('toggleMenu');
-    menu.classList.toggle('hidden');
+    var dropdown = document.getElementById('toggleMenu');
+    var  menu = document.getElementById('dropdownMenu');
+    dropdown.classList.toggle('hidden');
+    menu.classList.add('left-0');
 }
