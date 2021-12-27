@@ -4,15 +4,20 @@ module.exports = {
     colors:{
       // primary
       primary:'#f4263e',
-  
       // secondary
       secondary:'#62668a',
-
       // info
       info:'#1f2559',
-    
       // white
       white:'#fff',
+      // warning
+      warning:'#ffd02b',
+      dark_warning:'#ff961b',
+      //success
+      success_light:'#3fdbfe',
+      success:'#1b75fc',
+      //purple
+      purple:'#782ce4',
       
     },
 

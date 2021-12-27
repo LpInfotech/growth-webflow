@@ -1,4 +1,4 @@
-// ==== Mobilemenu Navbar
+// ==== Mobilemenu Navbar.
 function toggle() {
     var dropdown = document.getElementById('toggleMenu');
     var menu = document.getElementById('dropdownMenu');
@@ -6,7 +6,7 @@ function toggle() {
     menu.classList.add('left-0');
 }
 
-// banner image on scroll moments.
+// banner image on scroll animation.
 window.onscroll = function () {
     var grow1 = document.getElementById('growSvgOne');
     var banner = document.getElementById('growBanner');
