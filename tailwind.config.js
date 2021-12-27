@@ -10,6 +10,7 @@ module.exports = {
       info:'#1f2559',
       // white
       white:'#fff',
+      light:'#fafafc',
       // warning
       warning:'#ffd02b',
       dark_warning:'#ff961b',
@@ -18,7 +19,6 @@ module.exports = {
       success:'#1b75fc',
       //purple
       purple:'#782ce4',
-      
     },
 
     // font family
