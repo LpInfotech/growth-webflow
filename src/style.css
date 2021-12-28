@@ -10,3 +10,9 @@
 .text-shadow{
     text-shadow: -1px 5px 2px #b3b3b3;
 }
+
+/* == active == */
+/* .tab-link-items.active{
+    border-left-width: 4px;
+    border-color: #f4263e;
+} */

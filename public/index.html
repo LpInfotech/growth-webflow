@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
     <title>Growth - Webflow Ecommerce Website Template</title>
 </head>
 
@@ -467,14 +466,100 @@
     <!-- ./end case studies -->
 
     <!-- testimonial start -->
-    <section class="xl:container mx-auto xl:px-5 md:px-2 sm:px-8 px-2">
-        <div class="grid grid-cols-1 xl:w-5/12 xl:mx-auto text-center pt-28 mx-4">
-            <p class="text-primary text-xl font-medium">testimonials</p>
-            <h1 class="text-info text-4xl font-bold leading-snug mb-5 w-5/6 mx-auto">Don't take our word for it, take theirs!</h1>
-            <p class="text-secondary text-lg w-5/6 mx-auto font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus ante velit nunc morbi pretium. Ut nullam dolor, pulvinar.</p>
+    <section class="w-full bg-light">
+        <div class="xl:container mx-auto xl:px-5 md:px-2 sm:px-8 px-2">
+            <div class="grid grid-cols-1 xl:w-5/12 xl:mx-auto text-center pt-28 mx-4">
+                <p class="text-primary text-xl font-medium">testimonials</p>
+                <h1 class="text-info text-4xl font-bold leading-snug mb-5 w-5/6 mx-auto">Don't take our word for it, take theirs!</h1>
+                <p class="text-secondary text-lg w-5/6 mx-auto font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus ante velit nunc morbi pretium. Ut nullam dolor, pulvinar.</p>
+            </div>
         </div>
+
+        <!-- tabs start -->
+        <div class="xl:container mx-auto xl:px-5 md:px-2 sm:px-8 px-2">
+            <div class="grid grid-cols-2 gap-6 xl:w-8/12 xl:mx-auto text-center pt-20 pb-28 mx-4">
+                <!-- tabs link start -->
+                <div class="tab-section-1 w-5/6 m-auto">
+                    <div class="tab-link-items cursor-pointer shadow-xl flex py-8 pl-5 mt-4 rounded-r-3xl rounded-tr-3xl items-center border-l-4 border-white hover:border-l-4 hover:border-primary transition delay-100">
+                        <div>
+                            <img src="../public/images/testimonial-link-1.jpg" class="w-16 rounded-full border-2 border-white shadow-xl" alt="tab-btn-img">
+                        </div>
+                        <div class="text-left ml-6">
+                            <h1 class="text-info font-medium text-xl">John Carter</h1>
+                            <p class="font-medium text-base text-primary">-- VP of Marketing at Webflow</p>
+                        </div>
+                    </div>
+                    <div class="tab-link-items cursor-pointer shadow-xl flex py-8 pl-5 mt-4 rounded-r-3xl rounded-tr-3xl items-center border-l-4 border-white hover:border-l-4 hover:border-primary transition delay-100">
+                        <div>
+                            <img src="../public/images/testimonial-link-2.jpg" class="w-16 rounded-full border-2 border-white shadow-xl" alt="tab-btn-img">
+                        </div>
+                        <div class="text-left ml-6">
+                            <h1 class="text-info font-medium text-xl">Jason Larson</h1>
+                            <p class="font-medium text-base text-primary">-- Marketing Lead at Google</p>
+                        </div>
+                    </div>
+                    <div class="tab-link-items cursor-pointer shadow-xl flex py-8 pl-5 mt-4 rounded-r-3xl rounded-tr-3xl items-center border-l-4 border-white hover:border-l-4 hover:border-primary transition delay-100">
+                        <div>
+                            <img src="../public/images/testimonial-link-3.jpg" class="w-16 rounded-full border-2 border-white shadow-xl" alt="tab-btn-img">
+                        </div>
+                        <div class="text-left ml-6">
+                            <h1 class="text-info font-medium text-xl">Sophie Moore</h1>
+                            <p class="font-medium text-base text-primary">-- Head of Marketing at Facebook</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./end tabs link -->
+
+                <!-- tabs menu start -->
+                <div class="tab-section-2">
+                    <!-- tab menu one -->
+                    <div class="tabs-menu relative">
+                        <div>
+                            <img src="../public/images/tab-img-1.jpeg" class="rounded-3xl" alt="tab-menu-img">
+                        </div>                        
+                        <div class="bg-white rounded-3xl absolute -bottom-14 left-11 w-10/12 px-7 py-8 text-left shadow-xl">
+                            <img src="../public/images/tab-logo-1.svg" alt="company-logo">
+                            <p class="font-medium text-secondary text-base pt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus fames sollicitudin fermentum elementum risus vulputate. Vitae sed eu nec urna.”</p>
+                            <p class="text-xl pt-4 text-info font-medium">John Carter</p>
+                            <p class="text-lg text-primary font-medium">-- VP of Marketing at Webflow</p>
+                        </div>
+                    </div>
+
+                    <!-- tab menu two -->
+                    <div class="tabs-menu relative hidden">
+                        <div>
+                            <img src="../public/images/tab-img-2.jpeg" class="rounded-3xl" alt="tab-menu-img">
+                        </div>                        
+                        <div class="bg-white rounded-3xl absolute -bottom-14 left-11 w-10/12 px-7 py-8 text-left shadow-xl">
+                            <img src="../public/images/tab-logo-2.svg" alt="company-logo">
+                            <p class="font-medium text-secondary text-base pt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus fames sollicitudin fermentum elementum risus vulputate. Vitae sed eu nec urna.”</p>
+                            <p class="text-xl pt-4 text-info font-medium">Jason Larson</p>
+                            <p class="text-lg text-primary font-medium">-- Marketing Lead at Google</p>
+                        </div>
+                    </div>
+
+                    <!-- tab menu three -->
+                    <div class="tabs-menu relative hidden">
+                        <div>
+                            <img src="../public/images/tab-img-3.jpeg" class="rounded-3xl" alt="tab-menu-img">
+                        </div>                        
+                        <div class="bg-white rounded-3xl absolute -bottom-14 left-11 w-10/12 px-7 py-8 text-left shadow-xl">
+                            <img src="../public/images/tab-logo-3.svg" alt="company-logo">
+                            <p class="font-medium text-secondary text-base pt-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus fames sollicitudin fermentum elementum risus vulputate. Vitae sed eu nec urna.”</p>
+                            <p class="text-xl pt-4 text-info font-medium">Sophie Moore</p>
+                            <p class="text-lg text-primary font-medium">-- Head of Marketing at Facebook</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./end tabs menu -->
+            </div>
+        </div>
+        <!-- ./end tabs -->
     </section>
     <!-- ./end testimonial -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

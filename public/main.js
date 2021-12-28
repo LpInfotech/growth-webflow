@@ -24,3 +24,14 @@ window.onscroll = function () {
         grow2.classList.remove('-translate-y-7');
     }
 };
+
+// tabs are change on click
+$(document).ready(function(){
+    $('.tab-link-items').click(function(){
+        $('.tab-link-items').removeClass('active');
+        $(this).addClass('active');
+        $('.tab-link-items').removeClass('border-primary');
+        $(this).addClass('border-primary');
+        
+    });
+});
