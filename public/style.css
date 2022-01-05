@@ -1625,6 +1625,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
+  .sm\:top-40 {
+    top: 10rem;
+  }
+
+  .sm\:top-32 {
+    top: 8rem;
+  }
+
+  .sm\:top-36 {
+    top: 9rem;
+  }
+
+  .sm\:top-60 {
+    top: 15rem;
+  }
+
+  .sm\:top-64 {
+    top: 16rem;
+  }
+
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1664,6 +1684,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:top-36 {
     top: 9rem;
+  }
+
+  .md\:top-40 {
+    top: 10rem;
   }
 
   .md\:mt-0 {
@@ -1968,5 +1992,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xl\:py-11 {
     padding-top: 2.75rem;
     padding-bottom: 2.75rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:top-48 {
+    top: 12rem;
   }
 }
