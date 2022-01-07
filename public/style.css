@@ -453,29 +453,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
-}
-
-.inset-y-0 {
-  top: 0px;
-  bottom: 0px;
 }
 
 .left-14 {
@@ -582,10 +565,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.5rem;
 }
 
-.ml-8 {
-  margin-left: 2rem;
-}
-
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -642,6 +621,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -656,10 +639,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-6 {
   margin-left: 1.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .block {
@@ -700,14 +679,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-7 {
   height: 1.75rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-5 {
-  height: 1.25rem;
 }
 
 .w-36 {
@@ -756,14 +727,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-14 {
   width: 3.5rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.shrink-0 {
-  flex-shrink: 0;
 }
 
 .grow {
@@ -832,18 +795,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-11 {
   gap: 2.75rem;
 }
 
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -854,12 +811,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   white-space: nowrap;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-xl {
@@ -913,14 +870,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(244 38 62 / var(--tw-border-opacity));
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-info {
   --tw-border-opacity: 1;
   border-color: rgb(31 37 89 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-primary {
@@ -974,11 +931,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .stroke-success_light {
   stroke: #3fdbfe;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .py-7 {
@@ -1071,6 +1023,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 2rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .px-11 {
   padding-left: 2.75rem;
   padding-right: 2.75rem;
@@ -1079,16 +1041,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .pl-8 {
@@ -1149,18 +1101,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-5 {
   padding-left: 1.25rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
-.pl-9 {
-  padding-left: 2.25rem;
-}
-
-.pr-3 {
-  padding-right: 0.75rem;
 }
 
 .text-left {
@@ -1366,68 +1306,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     border-color: #f4263e;
 } */
 
-.file\:mr-4::-webkit-file-upload-button {
-  margin-right: 1rem;
-}
-
-.file\:mr-4::file-selector-button {
-  margin-right: 1rem;
-}
-
-.file\:rounded-full::-webkit-file-upload-button {
-  border-radius: 9999px;
-}
-
-.file\:rounded-full::file-selector-button {
-  border-radius: 9999px;
-}
-
-.file\:border-0::-webkit-file-upload-button {
-  border-width: 0px;
-}
-
-.file\:border-0::file-selector-button {
-  border-width: 0px;
-}
-
-.file\:py-2::-webkit-file-upload-button {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.file\:py-2::file-selector-button {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.file\:px-4::-webkit-file-upload-button {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.file\:px-4::file-selector-button {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.file\:text-sm::-webkit-file-upload-button {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.file\:text-sm::file-selector-button {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.file\:font-semibold::-webkit-file-upload-button {
-  font-weight: 600;
-}
-
-.file\:font-semibold::file-selector-button {
-  font-weight: 600;
-}
-
 .placeholder\:italic::-moz-placeholder {
   font-style: italic;
 }
@@ -1438,21 +1316,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .placeholder\:italic::placeholder {
   font-style: italic;
-}
-
-.placeholder\:text-info::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(31 37 89 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-info:-ms-input-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(31 37 89 / var(--tw-text-opacity));
-}
-
-.placeholder\:text-info::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(31 37 89 / var(--tw-text-opacity));
 }
 
 .placeholder\:text-secondary::-moz-placeholder {
@@ -1614,6 +1477,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     top: 10rem;
   }
 
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:ml-8 {
     margin-left: 2rem;
   }
@@ -1712,6 +1580,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:top-56 {
     top: 14rem;
+  }
+
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .lg\:ml-8 {
