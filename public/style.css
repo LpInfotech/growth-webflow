@@ -1736,6 +1736,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: 2.75rem;
   }
 
+  .xl\:right-4 {
+    right: 1rem;
+  }
+
   .xl\:z-0 {
     z-index: 0;
   }
@@ -1869,7 +1873,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:absolute {
+    position: absolute;
+  }
+
   .\32xl\:top-48 {
     top: 12rem;
+  }
+
+  .\32xl\:right-4 {
+    right: 1rem;
+  }
+
+  .\32xl\:right-16 {
+    right: 4rem;
   }
 }
